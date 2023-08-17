@@ -10,7 +10,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-nav ul{
+nav p{
     color: black;
     font-size: 30px;
     line-height: 100px;
@@ -18,4 +18,8 @@ nav ul{
     padding-top: 0 200px;
     font-weight: bold;
     background-color: green;
+}
+
+p a{
+    color: white;
 }
