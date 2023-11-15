@@ -1,0 +1,58 @@
+<meta charset="utf-8">
+<style>
+body, html{
+  height: 100%;
+  margin:0;border:0;padding:0;
+  overflow:hidden
+}
+</style>
+<title>CHANGE THIS TO GAME NAME</title>
+<meta name="description" content="Play PUT GAME NAME on Friv Archive on Github">
+</head>
+<div style="height:100%">
+<iframe src="https://msradmin.github.io/friv/games/krazy-kennel-breakout/main.swf" width="100%" height="100%" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowFullScreen"></iframe>
+</div>
+<script src="CHANGE THIS TO FLASH DETECT JS FILE DIRECTORY"></script>
+<script>
+		if(typeof FlashDetect.installed != 'undefined' && FlashDetect.installed){
+			var RufflePlayer_config_polyfills = false;
+		}else{
+			var RufflePlayer_config_polyfills = true;
+		};
+		console.log('RufflePlayer_config_polyfills: ', RufflePlayer_config_polyfills);
+		
+		window.RufflePlayer = window.RufflePlayer || {};
+		window.RufflePlayer.config = {
+			// Options affecting the whole page
+			"publicPath": undefined,
+			"polyfills": RufflePlayer_config_polyfills,
+
+			// Options affecting files only
+			"autoplay": "on",
+			"unmuteOverlay": "hidden",
+			"backgroundColor": null,
+			"letterbox": "fullscreen",
+			"warnOnUnsupportedContent": true,
+			"contextMenu": true,
+			"showSwfDownload": false,
+			"upgradeToHttps": window.location.protocol === "https:",
+			"maxExecutionDuration": {"secs": 15, "nanos": 0},
+			"logLevel": "error",
+			"base": null,
+			"menu": true,
+			"salign": "",
+			"scale": "showAll",
+			"quality": "high",
+		};
+	</script>
+<script src=" EDIT THIS TO RUFFLE.JS FILE DIRECTORY"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-222491862-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-222491862-1');
+</script>
+</body>
+</html>
